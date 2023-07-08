@@ -21,20 +21,20 @@ These are the functionality that we are providing to the user. Also there are ce
 1)     User can create/open account Saving or Current account with the providing Username, Age, Deposit Amount and Date of Deposit by reading from file input. A sample is provided in the project.
 2)     After that user can do any of 3 operations(Deposit, CheckBalance, Withdraw) with different rules correspond to account type.
 3)     For each transaction there should be an entry of Amount and Date
-'''
+```
 4)     Rules For Current Account Operations
     a) Daily transactions can’t be more than 5.
     b) Transaction of withdrawing the amount can’t be more than 80% of that month balance on 1st of that month
     c) Deposit amount of that day can’t be 10 times more than the deposit amount at account opening time.
     d) Check Balance can’t be done more than 5 times in a day
-'''
+```
 
-'''
+```
 5)      Rules For Saving Account Operations
     a) Daily transactions can’t be more than 2.
     b) Transaction of withdrawing the  amount can’t be more than 40% of that month balance on 1st of that month
     c) Deposit amount of that day can’t be 5 times more than the deposit amount at account opening time.
     d) Check Balance can’t be done more than 7 times in a day. 
-'''
+```
 
-####If the user crosses his transactional limits then the program exits with an error message about why user is not allowed to do the particular transaction
+### If the user crosses his transactional limits then the program exits with an error message about why user is not allowed to do the particular transaction

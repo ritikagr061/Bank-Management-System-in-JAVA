@@ -17,10 +17,15 @@ Our program mainly manages 3 types of transaction only, withdraw , deposit and B
 ![image](https://github.com/ritikagr061/Bank-Management-System-in-JAVA/assets/54122273/94e0fd3b-936f-4865-9107-a162b19da032)
 
 These are the functionality that we are providing to the user. Also there are certain criterias that needs to be followed as mentioned below :
-
+```
 1)     User can create/open account Saving or Current account with the providing Username, Age, Deposit Amount and Date of Deposit by reading from file input. A sample is provided in the project.
+```
+```
 2)     After that user can do any of 3 operations(Deposit, CheckBalance, Withdraw) with different rules correspond to account type.
+```
+```
 3)     For each transaction there should be an entry of Amount and Date
+```
 ```
 4)     Rules For Current Account Operations
     a) Daily transactions can’t be more than 5.
